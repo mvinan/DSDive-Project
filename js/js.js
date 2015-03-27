@@ -37,10 +37,8 @@ $(function(){
         pager: true,
         nav: true,
         speed: 500,
-        maxwidth: 800,
         namespace: "transparent-btns"
-      });
-
+	});
 
 });
 
