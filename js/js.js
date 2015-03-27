@@ -32,12 +32,5 @@ $(function(){
 	}
 	comprobando();
 
-	$(".rslides").responsiveSlides({
-		pager:true,
-		auto:true,
-		nav:true,
-		fade:500,
-		speed:500
-	});
 });
 
