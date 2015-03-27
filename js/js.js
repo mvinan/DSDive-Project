@@ -32,5 +32,14 @@ $(function(){
 	}
 	comprobando();
 
+	$(".rslides").responsiveSlides({
+        auto: true,
+        pager: true,
+        nav: true,
+        speed: 500,
+        namespace: "transparent-btns"
+	});
+
+
 });
 
