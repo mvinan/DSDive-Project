@@ -35,6 +35,7 @@ $(function(){
 	$(".rslides").responsiveSlides({
         auto: true,
         pager: true,
+        pause:false,
         nav: true,
         speed: 500,
         namespace: "transparent-btns"

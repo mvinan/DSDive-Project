@@ -49,7 +49,7 @@
   width: 48%;
   text-indent: -9999px;
   overflow: hidden;
-  height: 91%;
+  height: 89%;
   }
 
 .transparent-btns_nav.next {
@@ -90,7 +90,7 @@
 .centered-btns_tabs,
 .transparent-btns_tabs,
 .large-btns_tabs {
-  margin-top: 0px;
+  margin: 0;
   text-align: center;
   padding-left: 0;
   background:#036564;

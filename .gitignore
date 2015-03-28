@@ -1,2 +1,3 @@
 stylus/
 *.sh
+.DS_Store
