@@ -30,7 +30,7 @@ $(function(){
 			alert("estamos menos de los 768");
 		}
 	}
-	comprobando();
+	// comprobando();
 
 	$(".rslides").responsiveSlides({
         auto: true,
