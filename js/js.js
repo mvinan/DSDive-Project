@@ -4,7 +4,26 @@ $(function(){
 	var $ventana = $(window).width();
 	var $windowHeight = $(window).height();
 	var $alturaSobrante = $(".main-section").offset().top;
+	var $menu = $(".bt-menu");
 
+	$( $menu ).on("click", show);
+
+	function show (event){
+		event.preventDefault();
+		$(".main-container").toggleClass("show-menu");
+		if ( $(".bt-menu").hasClass("icon-menu") ) 
+		{
+			$(".bt-menu").css("transform","rotate(180deg)");
+			$(".bt-menu").removeClass("icon-menu");
+			$(".bt-menu").addClass("icon-close");
+		}
+		else{
+			$(".bt-menu").css("transform","");
+			$(".bt-menu").removeClass("icon-close");
+			$(".bt-menu").addClass("icon-menu");
+
+		}
+	}
 
 	function showMenu (event) {
 		event.preventDefault();
