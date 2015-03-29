@@ -3,11 +3,7 @@ $(function(){
 	var $body = document.querySelector("body");
 	var $ventana = $(window).width();
 	var $windowHeight = $(window).height();
-	var $bt_menu = $(".bt-menu");
-
-
-	$bt_menu.on("click",activateMenu);
-
+	var $alturaSobrante = $(".main-section").offset().top;
 
 
 	function showMenu (event) {
@@ -23,7 +19,16 @@ $(function(){
 		$buttonHiddenMenu.removeClass("is-active");
 	}
 
+	$(window).on("scroll", stikyMenu );
 
+	function stikyMenu(){
+		if ( $(window).scrollTop() > $alturaSobrante ){
+			$(".main-section").addClass("menu-fixed");
+		}
+		else{
+			$(".main-section").removeClass("menu-fixed");
+		}
+	}
 
 	function comprobando(){
 		if ( $ventana < 767 ) {
@@ -31,16 +36,11 @@ $(function(){
 		}
 	}
 	// comprobando();
-
+	//responsives slides
 	$(".rslides").responsiveSlides({
         nav: true,
         speed: 500,
         namespace: "transparent-btns"
 	});
-
-	function activateMenu(event){
-		event.preventDefault();
-		$(".main").toggleClass("activate");
-	}
 });
 
