@@ -1,13 +1,14 @@
 $(function(){
 
-	var $buttonShowMenu = $("#btn-showMenu")
-	var $buttonHiddenMenu = $("#btn-hiddenMenu")
-	var $menu = $("#menu")
+	var $body = document.querySelector("body");
 	var $ventana = $(window).width();
 	var $windowHeight = $(window).height();
+	var $bt_menu = $(".bt-menu");
 
-	$buttonShowMenu.on("click", showMenu);
-	$buttonHiddenMenu.on("click", hiddenMenu);
+
+	$bt_menu.on("click",activateMenu);
+
+
 
 	function showMenu (event) {
 		event.preventDefault();
@@ -22,7 +23,6 @@ $(function(){
 		$buttonHiddenMenu.removeClass("is-active");
 	}
 
-	var $body = document.querySelector("body");
 
 
 	function comprobando(){
@@ -40,5 +40,9 @@ $(function(){
         namespace: "transparent-btns"
 	});
 
+	function activateMenu(event){
+		event.preventDefault();
+		$(".main").toggleClass("activate");
+	}
 });
 
