@@ -3,7 +3,7 @@ $(function(){
 	var $body = document.querySelector("body");
 	var $ventana = $(window).width();
 	var $windowHeight = $(window).height();
-	var $alturaSobrante = $(".main-section").offset().top;
+	var $alturaSobrante = $(".here").offset().top;
 	var $menu = $(".bt-menu");
 
 	$( $menu ).on("click", show);
