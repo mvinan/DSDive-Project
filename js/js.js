@@ -61,5 +61,6 @@ $(function(){
         speed: 500,
         namespace: "transparent-btns"
 	});
+
 });
 
