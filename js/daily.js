@@ -46,13 +46,4 @@ $(function(){
 			$(".main-section").removeClass("menu-fixed");
 		}
 	}
-
-
-
-
-
-
-
-
-
 });
