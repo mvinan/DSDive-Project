@@ -3,6 +3,7 @@ $(function(){
 
 	var $menu = $(".bt-menu");
 	$( $menu ).on("click", show);
+	var $alturaSobrante = $(".here").offset().top;
 
 	function show (event){
 		event.preventDefault();
@@ -34,7 +35,17 @@ $(function(){
 		$buttonHiddenMenu.removeClass("is-active");
 	}
 
+	// codigo para el menu stiky
+	$(window).on("scroll", stikyMenu );
 
+	function stikyMenu(){
+		if ( $(window).scrollTop() > $alturaSobrante ){
+			$(".main-section").addClass("menu-fixed");
+		}
+		else{
+			$(".main-section").removeClass("menu-fixed");
+		}
+	}
 
 
 
