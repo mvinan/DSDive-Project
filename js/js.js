@@ -52,6 +52,7 @@ $(function(){
 	}
 	//responsives slides
 	$(".rslides").responsiveSlides({
+		pause:true;
         nav: false,
         pager:true,
         speed: 500,
