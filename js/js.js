@@ -52,7 +52,8 @@ $(function(){
 	}
 	//responsives slides
 	$(".rslides").responsiveSlides({
-        nav: true,
+        nav: false,
+        pager:true,
         speed: 500,
         namespace: "transparent-btns"
 	});
