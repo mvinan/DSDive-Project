@@ -55,9 +55,9 @@ $(function(){
 	//responsives slides
 	$(".rslides").responsiveSlides({
 		pager:true,
-		pause:true,
-		pauseControls:true,
-		auto:false,
+		// pause:true,
+		// pauseControls:true,
+		auto:true,
         nav: false,
         speed: 500,
         namespace: "transparent-btns"
