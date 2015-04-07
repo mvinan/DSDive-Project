@@ -7,6 +7,8 @@ $(function(){
 	var $menu = $(".bt-menu");
 
 
+	// scroll al top al cargar la pagina
+
 	$( $menu ).on("click", show);
 
 	function show (event){
@@ -43,7 +45,7 @@ $(function(){
 	$(window).on("scroll", stikyMenu );
 
 	function stikyMenu(){
-		if ( $(window).scrollTop() > $alturaSobrante ){
+		if ( $(window).scrollTop() > 20 ){
 			$(".main-section").addClass("menu-fixed");
 		}
 		else{
@@ -52,9 +54,11 @@ $(function(){
 	}
 	//responsives slides
 	$(".rslides").responsiveSlides({
-		pause:true;
+		pager:true,
+		pause:true,
+		pauseControls:true,
+		auto:false,
         nav: false,
-        pager:true,
         speed: 500,
         namespace: "transparent-btns"
 	});
