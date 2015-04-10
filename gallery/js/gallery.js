@@ -46,16 +46,5 @@ $(function(){
 			$(".main-section").removeClass("menu-fixed");
 		}
 	}
-
-	$('#mygallery').justifiedGallery({
-    	rowHeight : 200,
-    	lastRow : 'nojustify',
-    	margins : 3,
-    	fixedHeight:true,
-    	waitThumbnailsLoad:true
-    	// randomize:true
-		}).on('jg.complete', function () {
-    		$('#mygallery a').swipebox();
-		});
     
 });
