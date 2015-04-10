@@ -50,6 +50,10 @@
 		<h4 ><i class="lighter">Turism and Diving with Darwin Scuba Dive.</i></h4>
 	</header>
 	<!-- seccion gallery -->
+	<div class="loader"> 
+		<p class="p__text">We are loading these images for you, is just one second <br>please wait a moment...</p>
+		<div id="preloader_3"></div>
+	</div>
 	<section class="gallery-container">
 		<div id="plusgallery" data-userid="115662298491858743754" data-album-id="6135914644723829825" data-limit="100" data-type="google"></div>
 	</section>
@@ -100,8 +104,12 @@
 	<script src="js/plusgallery.js?v=1"></script>
 	<script>
 		$(function(){
+			var $loader = $(".loader");
 			$('#plusgallery').plusGallery();
-		})
+			$(window).load(function (){
+				$( $loader ).hide();
+			});
+		});
 	</script>
 </body>
 </html>
