@@ -11,6 +11,7 @@
 	<link rel="shortcut icon" href="../img/favico.ico">
 	<!-- links referencia hoja de estilos -->
 	<link rel="stylesheet" href="../css/equipment.css?v=0.1">
+	<link rel="stylesheet" href="../gallery/css/plusgallery.css?v=1">
 </head>
 <body>
 	<!-- menu stiky -->
@@ -50,54 +51,8 @@
 		<h4 ><i class="lighter">Our specialty is diving, we are professional quality. Call us.</i></h4>
 	</header>
 	<!-- seccion catalogo -->
-	<section class="tour">
-		<article class="tabs">
-			<div class="row-space-around">
-				<div class="grid col-4">
-					<figure class="espacio-blanco">
-						<img src="https://scontent-mia.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/226663_111523822391480_2056611212_n.jpg?oh=fb964564b4d8a417863cfa0ffefde3b9&oe=55AEBB98" alt="equipment rent,Darwin Scuba Dive - San Cristobal, Galapagos">
-					</figure>
-				</div>
-				<div class="grid col-4">
-					<figure class="espacio-blanco">
-						<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/970732_111526362391226_636659400_n.jpg?oh=6156533d054d7e1caaea6644f75eff72&oe=559CAB6D&__gda__=1437428351_0a6d21399147c39e9352426b7c7e6f86" alt="equipment rent,Darwin Scuba Dive - San Cristobal, Galapagos">
-					</figure>
-				</div>
-				<div class="grid col-4">
-					<figure class="espacio-blanco">
-						<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/p206x206/503_111526505724545_1241095288_n.jpg?oh=4d658eaf857d07d561e86f96046b4111&oe=55AAFBF2&__gda__=1437367399_8c46a7842d33e48103a2dd75bdb754f3" alt="equipment rent,Darwin Scuba Dive - San Cristobal, Galapagos">
-					</figure>
-				</div>
-				<div class="grid col-4">
-					<figure class="espacio-blanco">
-						<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn2/v/t1.0-9/945103_111526525724543_406151416_n.jpg?oh=cc980781295d2883439f5511e812a9ae&oe=55B61BDF&__gda__=1436026001_740fc1ade8b0c2c63794b63a65a8f2fd" alt="equipment rent,Darwin Scuba Dive - San Cristobal, Galapagos">
-					</figure>
-				</div>
-			</div>
-			<div class="row-space-around">
-				<div class="grid col-4">
-					<figure class="espacio-blanco">
-						<img src="https://scontent-mia.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/p206x206/941685_111526622391200_1907964866_n.jpg?oh=adf8a9f2ac9d7bd44ebe59bc1a8f136f&oe=559FAF48" alt="equipment rent,Darwin Scuba Dive - San Cristobal, Galapagos">
-					</figure>
-				</div>
-				<div class="grid col-4">
-					<figure class="espacio-blanco">
-						<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash2/v/t1.0-9/580180_111526815724514_2024636331_n.jpg?oh=d7c8184a7dbdb96682f39a9b4dbd416a&oe=55B70DCB&__gda__=1436085100_b226b2aceec10c3ba601783ce4ba243f" alt="equipment rent,Darwin Scuba Dive - San Cristobal, Galapagos">
-					</figure>
-				</div>
-				<div class="grid col-4">
-					<figure class="espacio-blanco">
-						<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/945871_111526955724500_109020483_n.jpg?oh=1457b30145ebc30ae9d669d2941579cf&oe=559FEE2F&__gda__=1437363350_e010d5cfa9ddb07c76f61d75ddd905f3" alt="equipment rent,Darwin Scuba Dive - San Cristobal, Galapagos">
-					</figure>
-				</div>
-				<div class="grid col-4">
-					<figure class="espacio-blanco">
-						<img src="https://scontent-atl.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/601309_111532059057323_20885139_n.jpg?oh=0768c47bb18312b4e4cf1328118af32c&oe=55E3AF4B" alt="equipment rent,Darwin Scuba Dive - San Cristobal, Galapagos">
-					</figure>
-				</div>
-			</div>
-			<!-- termina container de catalogo -->
-		</article>
+	<section class="gallery-container">
+		<div id="plusgallery" data-userid="115662298491858743754" data-album-id="6135914644723829825" data-limit="100" data-type="google"></div>
 	</section>
 	<!-- =========== separador ============ -->
 	<svg class="separator-up" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -145,5 +100,13 @@
 	<!-- scripts =====>>>>>>>>> -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="../js/daily.js"></script>
+	<script src="../gallery/js/gallery.js"></script>
+	<script>window.jQuery || document.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>")</script>
+	<script src="../gallery/js/plusgallery.js?v=1"></script>
+	<script>
+		$(function(){
+			$('#plusgallery').plusGallery();
+		})
+	</script>
 </body>
 </html>
