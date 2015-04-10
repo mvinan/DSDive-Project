@@ -1,13 +1,32 @@
 $(function(){
 
-	var $buttonShowMenu = $("#btn-showMenu")
-	var $buttonHiddenMenu = $("#btn-hiddenMenu")
-	var $menu = $("#menu")
+	var $body = document.querySelector("body");
 	var $ventana = $(window).width();
 	var $windowHeight = $(window).height();
+	var $alturaSobrante = $(".here").offset().top;
+	var $menu = $(".bt-menu");
 
-	$buttonShowMenu.on("click", showMenu);
-	$buttonHiddenMenu.on("click", hiddenMenu);
+
+	// scroll al top al cargar la pagina
+
+	$( $menu ).on("click", show);
+
+	function show (event){
+		event.preventDefault();
+		$(".main").toggleClass("show-menu");
+		if ( $(".bt-menu").hasClass("icon-menu") ) 
+		{
+			$(".bt-menu").css("transform","rotate(180deg)");
+			$(".bt-menu").removeClass("icon-menu");
+			$(".bt-menu").addClass("icon-close");
+		}
+		else{
+			$(".bt-menu").css("transform","");
+			$(".bt-menu").removeClass("icon-close");
+			$(".bt-menu").addClass("icon-menu");
+
+		}
+	}
 
 	function showMenu (event) {
 		event.preventDefault();
@@ -22,21 +41,24 @@ $(function(){
 		$buttonHiddenMenu.removeClass("is-active");
 	}
 
-	var $body = document.querySelector("body");
+	// codigo para el menu stiky
+	$(window).on("scroll", stikyMenu );
 
-
-	function comprobando(){
-		if ( $ventana < 767 ) {
-			alert("estamos menos de los 768");
+	function stikyMenu(){
+		if ( $(window).scrollTop() > 20 ){
+			$(".main-section").addClass("menu-fixed");
+		}
+		else{
+			$(".main-section").removeClass("menu-fixed");
 		}
 	}
-	// comprobando();
-
+	//responsives slides
 	$(".rslides").responsiveSlides({
-        auto: true,
-        pager: true,
-        pause:false,
-        nav: true,
+		pager:true,
+		// pause:true,
+		// pauseControls:true,
+		auto:true,
+        nav: false,
         speed: 500,
         namespace: "transparent-btns"
 	});
