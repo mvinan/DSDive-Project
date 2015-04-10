@@ -208,7 +208,7 @@ background-color: #38beea;
 	float: left;
 	width: 14.5833333333333%;
 	height: 14.5833333333333%;
-	max-width: 140px;
+	max-width: 320px;
 	margin: 10px 1.0417%;
 	display: block;
 	position: relative;
@@ -223,7 +223,7 @@ background-color: #38beea;
 .pgthumb a {
 	width: 100%;
 	height: 100%;
-	padding: 5px; !important;
+	padding: 0;
 	margin: 0;
 }
 
@@ -237,7 +237,7 @@ background-color: #38beea;
 	background: #fff url(../images/plusgallery/loading-albums.gif) no-repeat 50% 50%;
 	width: 100%;
 	border: none;
-	max-width: 130px;
+	max-width: 250px;
 }
 
 /*detail*/
@@ -477,7 +477,7 @@ background-color: #38beea;
 }
 
 @media only screen and (max-width: 480px) {
-	.pgalbumthumb, .pgthumb { margin: 2.083333333333%;/*10/480*/ }
+	.pgalbumthumb, .pgthumb { margin:0.6%;/*10/480*/ }
 	.pgalbumthumb { width: 29.16666666666%; /*140/480*/ }
 	.pgthumb { width: 20.833333333333%; /*100/480*/ }
 	.pgzoomarrow {
@@ -497,7 +497,7 @@ background-color: #38beea;
 }
 
 @media only screen and (max-width: 320px) {
-	.pgalbumthumb, .pgthumb { margin: 3.125%;/*10/480*/ }
+	.pgalbumthumb, .pgthumb { margin: 2%;/*10/480*/ }
 	.pgalbumthumb { width: 43.75%; /*140/320*/ }
 	.pgthumb { width: 27.083333333333%; /*86.66666666666667/320*/ }
 }
