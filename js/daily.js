@@ -39,20 +39,11 @@ $(function(){
 	$(window).on("scroll", stikyMenu );
 
 	function stikyMenu(){
-		if ( $(window).scrollTop() > $alturaSobrante ){
+		if ( $(window).scrollTop() > 20 ){
 			$(".main-section").addClass("menu-fixed");
 		}
 		else{
 			$(".main-section").removeClass("menu-fixed");
 		}
 	}
-
-
-
-
-
-
-
-
-
 });

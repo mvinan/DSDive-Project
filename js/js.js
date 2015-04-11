@@ -6,11 +6,14 @@ $(function(){
 	var $alturaSobrante = $(".here").offset().top;
 	var $menu = $(".bt-menu");
 
+
+	// scroll al top al cargar la pagina
+
 	$( $menu ).on("click", show);
 
 	function show (event){
 		event.preventDefault();
-		$(".main-container").toggleClass("show-menu");
+		$(".main").toggleClass("show-menu");
 		if ( $(".bt-menu").hasClass("icon-menu") ) 
 		{
 			$(".bt-menu").css("transform","rotate(180deg)");
@@ -38,26 +41,24 @@ $(function(){
 		$buttonHiddenMenu.removeClass("is-active");
 	}
 
+	// codigo para el menu stiky
 	$(window).on("scroll", stikyMenu );
 
 	function stikyMenu(){
-		if ( $(window).scrollTop() > $alturaSobrante ){
+		if ( $(window).scrollTop() > 20 ){
 			$(".main-section").addClass("menu-fixed");
 		}
 		else{
 			$(".main-section").removeClass("menu-fixed");
 		}
 	}
-
-	function comprobando(){
-		if ( $ventana < 767 ) {
-			alert("estamos menos de los 768");
-		}
-	}
-	// comprobando();
 	//responsives slides
 	$(".rslides").responsiveSlides({
-        nav: true,
+		pager:true,
+		// pause:true,
+		// pauseControls:true,
+		auto:true,
+        nav: false,
         speed: 500,
         namespace: "transparent-btns"
 	});
