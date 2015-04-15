@@ -58,6 +58,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/adventure.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/adventure.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/amazing.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1680,6 +1689,22 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/stylus\/adventure.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/stylus\/adventure.styl",
+		"outputAbbreviatedPath": "\/css\/adventure.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
 	"\/stylus\/amazing.styl": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2159,6 +2184,59 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
+		},
+	"\/tours-package\/adventure-tour\/img\/artesanias.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68842,
+		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/artesanias.jpg",
+		"outputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/artesanias.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tours-package\/adventure-tour\/img\/peces-isabela.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87186,
+		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/peces-isabela.jpg",
+		"outputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/peces-isabela.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tours-package\/adventure-tour\/img\/portada.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 196573,
+		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/portada.jpg",
+		"outputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/portada.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tours-package\/adventure-tour\/img\/tunel-isabela.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72921,
+		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/tunel-isabela.jpg",
+		"outputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/tunel-isabela.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tours-package\/adventure-tour\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/tours-package\/amazing-tour\/img\/portada.jpg": {
 		"fileType": 16384,
