@@ -1019,6 +1019,70 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/daily-tours\/santa-cruz\/img\/pinguino.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52217,
+		"inputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/pinguino.jpg",
+		"outputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/pinguino.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/daily-tours\/santa-cruz\/img\/playas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82745,
+		"inputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/playas.jpg",
+		"outputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/playas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/daily-tours\/santa-cruz\/img\/portada.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281073,
+		"inputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/portada.jpg",
+		"outputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/portada.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/daily-tours\/santa-cruz\/img\/sierra-negra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57885,
+		"inputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/sierra-negra.jpg",
+		"outputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/sierra-negra.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/daily-tours\/santa-cruz\/img\/wild-life.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84700,
+		"inputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/wild-life.jpg",
+		"outputAbbreviatedPath": "\/daily-tours\/santa-cruz\/img\/wild-life.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/daily-tours\/santa-cruz\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/daily-tours\/santa-cruz\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/en\/history.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2137,6 +2201,22 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/stylus\/santa-cruz.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/stylus\/santa-cruz.styl",
+		"outputAbbreviatedPath": "\/css\/santa-cruz.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
 	"\/stylus\/sea-lion.styl": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2185,6 +2265,17 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/tours-package\/adventure-tour\/img\/adventure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77335,
+		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/adventure.jpg",
+		"outputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/adventure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/tours-package\/adventure-tour\/img\/artesanias.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2207,6 +2298,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/tours-package\/adventure-tour\/img\/playa-santacruz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83592,
+		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/playa-santacruz.jpg",
+		"outputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/playa-santacruz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/tours-package\/adventure-tour\/img\/portada.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2214,6 +2316,17 @@
 		"initialSize": 196573,
 		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/portada.jpg",
 		"outputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/portada.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tours-package\/adventure-tour\/img\/tortuga-santa-cruz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47587,
+		"inputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/tortuga-santa-cruz.jpg",
+		"outputAbbreviatedPath": "\/tours-package\/adventure-tour\/img\/tortuga-santa-cruz.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
