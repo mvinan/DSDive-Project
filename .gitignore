@@ -1,3 +1,5 @@
 stylus/
 *.sh
 .DS_Store
+*.jade
+deployment-config.json
